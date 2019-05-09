@@ -37,3 +37,46 @@ yarn add bcryptjs
 ----
 Generate Token
 yarn add jsonwebtoken
+----
+Automatizar o require
+yarn add require-dir
+
+----
+Pagination on mongoose
+yarn add mongoose-paginate
+
+---
+Manage mails
+yarn add nodemailer
+---
+Template for mails
+yarn add nodemailer-express-handlebars
+yarn add express-handlebars
+
+---
+Install redis on docker
+docker run --name noderedis -p 6379:6379 -d -t redis:alpine
+docker start noderedis
+
+---
+Instal manager Queue
+yarn add kue
+
+----
+Install schema validator
+yarn add joi
+---
+Install validator
+yarn add express-validation
+---
+Install formatter errors
+yarn add youch
+---
+Install lib to catch async errors
+yarn add express-async-handler
+---
+Install manager production log errors
+yarn add @sentry/node
+---
+For envirement variable
+yarn add dotenv
